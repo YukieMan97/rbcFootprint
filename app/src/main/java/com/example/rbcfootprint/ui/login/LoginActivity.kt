@@ -45,6 +45,8 @@ class LoginActivity : AppCompatActivity() {
 
             if (loginState.usernameError != null) {
                 username.error = getString(loginState.usernameError)
+
+                // TODO error if username cannot be found
             }
             if (loginState.passwordError != null) {
                 password.error = getString(loginState.passwordError)
