@@ -115,7 +115,6 @@ class LoginActivity : AppCompatActivity() {
         // initiate successful logged in experience
         val intent = Intent(this, MainPageActivity::class.java)
         startActivity(intent);
-
     }
 
     private fun showLoginFailed(@StringRes errorString: Int) {
