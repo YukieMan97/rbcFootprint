@@ -15,9 +15,9 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ProgressBar
 import android.widget.Toast
-import com.example.rbcfootprint.MainActivity
 
 import com.example.rbcfootprint.R
+import com.example.rbcfootprint.ui.mainpage.MainPageActivity
 
 class LoginActivity : AppCompatActivity() {
 
@@ -113,7 +113,7 @@ class LoginActivity : AppCompatActivity() {
         ).show()
 
         // initiate successful logged in experience
-        val intent = Intent(this, MainActivity::class.java)
+        val intent = Intent(this, MainPageActivity::class.java)
         startActivity(intent);
 
     }
