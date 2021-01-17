@@ -19,4 +19,5 @@
     <string name="wrong">✗</string>
     <string name="select_activity">Select an activity and start earning points!</string>
     <string name="available_activities">Available Activities</string>
+    <string name="back">←</string>
 </resources>

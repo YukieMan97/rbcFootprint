@@ -17,7 +17,7 @@
 
         <ImageButton
             android:id="@+id/accButton"
-            android:layout_width="wrap_content"
+            android:layout_width="406dp"
             android:layout_height="155dp"
             android:clickable="true"
             android:scaleType="fitXY"
