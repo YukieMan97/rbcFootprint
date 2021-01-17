@@ -3,7 +3,7 @@
 
 ## Implemented in Kotlin with Android Studio
 
-## [Project idea](https://ellehacks.hypeinnovation.com/servlet/hype/IMT?documentTableId=9007205813285092533&userAction=Browse&templateName=&documentId=79fdac453205c2bf56ebab16c2a2fd51) : Short Summary
+## [Project idea](https://ellehacks.hypeinnovation.com/servlet/hype/IMT?documentTableId=9007205813285092533&userAction=Browse&templateName=&documentId=79fdac453205c2bf56ebab16c2a2fd51) : Short Overview
 
 Our group has incorporated two themes proposed in ElleHacks 2021 into our project: 
 - RBC Sponsored Challenge - Rewarding the Environment
@@ -37,17 +37,26 @@ Everyday, the tips page will be filled with new tips and tricks to reduce waste 
 This activity page is filled with categories where users can select their area of interest and how they can help protect the Earth in their own way. There are topics such as recycling, fast fashion, and renewable energy. Once they have chosen their preferred topic, there will be articles they can read (not implemented) and also go through a short quiz. Completing a quiz succcessfully guarantees more rewards! These quizzes are optional, so the user just wants to read articles, that is also learning!
 
 ![Activity Page: Fast Fashion](https://i.gyazo.com/62bada8f00fead15b9a6f4dddf6df0bb.png)
+![Activity Page: Climate Change & Renewable Energy](https://gyazo.com/7ed74d948e4378fee50b86bbca0f45c5)
 
 As an example, we have a quiz about fast fashion. Fast fashion is trendy and inexpensive clothing that are mass-produced at a low cost. Because of all these points, there's an increase in overproduction and overconsumption, which does not help our ecological footprint. This is why we have a category about fast fashion. Please see the questions below and how our quiz system works!
-
-![Activity Page: Climate Change & Renewable Energy](https://gyazo.com/65603ce851a8addfe75ff7a825104673)
 
 ![Fast Fashion Q1](https://i.gyazo.com/a6d11d51aa26e1e2bb0a120337634300.png)
 
 ![Fast Fashion Q1: Incorrect](https://gyazo.com/890b3b23e6bf8d55bb5c43a971568b6a)
-
 ![Fast Fashion Q1: correct](https://i.gyazo.com/afb30a2d9e6dcc4e55a7921b87c57e0f.png)
 
-![Fast Fashion Q2](https://i.gyazo.com/0e416b42d9dfbba15b7d1a99ac57500b.png)
+We considered using blue and yellow for our incorrect and correct answers for design purposes and to also represent RBC more. Also, we wanted to account for people with colourblindness. After a mini debate, we decided to stick with green and red colours because they are usually associated with right and wrong answers. Since we are a learning extension, it makes sense to go with this colour scheme. We have also put symbols to indicate between right and wrong answers for those who have colourblindness. 
 
+![Fast Fashion Q2](https://i.gyazo.com/0e416b42d9dfbba15b7d1a99ac57500b.png)
 ![Fast Fashion Q3](https://i.gyazo.com/7620cbc21314d99a1eb83771f831189b.png)
+
+This quiz contains 3 questions and each question is unique. With these facts and learning experiences, we hope that users feel encouraged to develop good habits in keeping our Earth clean.
+
+
+## Thanks for reading about our RBC Footprint Extension for the RBC Rewards Application. 
+
+# Project Overview:
+## Here, I will be talking about my experience with this project and my awesome teammates!
+
+(to be continued)
