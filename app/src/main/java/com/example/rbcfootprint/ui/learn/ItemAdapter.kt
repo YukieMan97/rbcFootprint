@@ -1,13 +1,15 @@
 package com.example.rbcfootprint.ui.learn
 
 import android.content.Context
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
+import androidx.appcompat.app.AppCompatActivity
 import com.example.rbcfootprint.R
+import com.example.rbcfootprint.ui.quiz.firstquestion.QuizQuestionActivity
 
 class ItemAdapter : AppCompatActivity() {
 
@@ -59,7 +61,9 @@ class ItemAdapter : AppCompatActivity() {
                 pointTxt.text = quote.getPoints()
 
                 //handle itemclicks for the ListView
-                view.setOnClickListener { Toast.makeText(c, quote.getCourse(), Toast.LENGTH_SHORT).show() }
+                view.setOnClickListener {
+                    Toast.makeText(c, quote.getCourse(), Toast.LENGTH_SHORT).show()
+                }
 
                 return view
             }
@@ -93,10 +97,23 @@ class ItemAdapter : AppCompatActivity() {
             super.onCreate(savedInstanceState)
             setContentView(R.layout.available_activities)
 
+            val button = findViewById<Button>(R.id.startActivity)
+            button.setOnClickListener{
+                val intent = Intent(this, QuizQuestionActivity::class.java)
+                startActivity(intent)
+            }
+
             myListView = findViewById(R.id.myListView) as ListView
 
             //instantiate and set adapter
             adapter = CustomAdapter(this, data)
             myListView.adapter = adapter
+
+
+
+//            myListView.setOnItemClickListener{_, _, _, _ ->
+//                val intent = Intent(this, QuizQuestionActivity::class.java)
+//                startActivity(intent)
+//            }
         }
 }

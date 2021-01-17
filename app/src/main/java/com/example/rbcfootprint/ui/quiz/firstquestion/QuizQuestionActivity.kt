@@ -1,10 +1,11 @@
-package com.example.rbcfootprint.ui.quiz
+package com.example.rbcfootprint.ui.quiz.firstquestion
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import com.example.rbcfootprint.R
+import com.example.rbcfootprint.ui.learn.LearnActivity
 
 class QuizQuestionActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

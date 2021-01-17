@@ -24,12 +24,13 @@
         <activity android:name=".ui.learn.ThirdLearnActivity"></activity>
         <activity android:name=".ui.learn.ItemAdapter"></activity>
         <activity android:name=".ui.quiz.QuizTipActivity"></activity>
-        <activity android:name=".ui.quiz.QuizQuestionActivity"></activity>
-        <activity android:name=".ui.quiz.FirstWrongQActivity"></activity>
-        <activity android:name=".ui.quiz.ThirdWrongQActivity"></activity>
-        <activity android:name=".ui.quiz.FourthWrongQActivity"></activity>
-        <activity android:name=".ui.quiz.CorrectQActivity"></activity>
+        <activity android:name=".ui.quiz.firstquestion.QuizQuestionActivity"></activity>
+        <activity android:name=".ui.quiz.secondquestion.SecondQuizQuestionActivity"></activity>
+        <activity android:name=".ui.quiz.thirdquestion.ThirdQuizQuestionActivity"></activity>
+        <activity android:name=".ui.quiz.firstquestion.FirstWrongQActivity"></activity>
+        <activity android:name=".ui.quiz.firstquestion.ThirdWrongQActivity"></activity>
+        <activity android:name=".ui.quiz.firstquestion.FourthWrongQActivity"></activity>
+        <activity android:name=".ui.quiz.firstquestion.CorrectQActivity"></activity>
     </application>
-
 
         </manifest>

@@ -18,14 +18,13 @@ class QuizTipActivity : AppCompatActivity() {
 
         val button = findViewById<Button>(R.id.nextButton)
         button.setOnClickListener{
-            val intent = Intent(this, QuizQuestionActivity::class.java)
+            val intent = Intent(this, ItemAdapter::class.java)
             startActivity(intent)
         }
 
-        // TODO direct to "Available Activities" layout
         val button2 = findViewById<ImageButton>(R.id.backButton)
         button2.setOnClickListener{
-            val intent = Intent(this, ItemAdapter::class.java)
+            val intent = Intent(this, MainPageActivity::class.java)
             startActivity(intent)
         }
     }
