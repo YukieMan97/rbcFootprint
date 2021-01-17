@@ -28,7 +28,7 @@ class SecondLearnActivity : AppCompatActivity() {
 
         val button2 = findViewById<Button>(R.id.skipButton)
         button2.setOnClickListener{
-            val intent = Intent(this, MainPageActivity::class.java)
+            val intent = Intent(this, ItemAdapter::class.java)
             startActivity(intent)
         }
     }

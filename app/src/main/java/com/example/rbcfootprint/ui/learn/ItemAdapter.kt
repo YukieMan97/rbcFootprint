@@ -2,16 +2,14 @@ package com.example.rbcfootprint.ui.learn
 
 import android.content.Context
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
-import androidx.core.content.ContextCompat
-import androidx.core.content.ContextCompat.startActivity
+import androidx.appcompat.app.AppCompatActivity
 import com.example.rbcfootprint.R
-import com.example.rbcfootprint.ui.quiz.QuizQuestionActivity
+import com.example.rbcfootprint.ui.quiz.firstquestion.QuizQuestionActivity
 
 class ItemAdapter : AppCompatActivity() {
 
@@ -99,10 +97,23 @@ class ItemAdapter : AppCompatActivity() {
             super.onCreate(savedInstanceState)
             setContentView(R.layout.available_activities)
 
+            val button = findViewById<Button>(R.id.startActivity)
+            button.setOnClickListener{
+                val intent = Intent(this, QuizQuestionActivity::class.java)
+                startActivity(intent)
+            }
+
             myListView = findViewById(R.id.myListView) as ListView
 
             //instantiate and set adapter
             adapter = CustomAdapter(this, data)
             myListView.adapter = adapter
+
+
+
+//            myListView.setOnItemClickListener{_, _, _, _ ->
+//                val intent = Intent(this, QuizQuestionActivity::class.java)
+//                startActivity(intent)
+//            }
         }
 }

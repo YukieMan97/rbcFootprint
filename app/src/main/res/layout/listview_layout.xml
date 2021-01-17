@@ -20,8 +20,9 @@
             android:layout_width="406dp"
             android:layout_height="155dp"
             android:clickable="true"
-            android:scaleType="fitXY"
-            android:src="@drawable/climate" />
+            android:scaleType="centerCrop"
+            android:src="@drawable/climate"
+            style="?android:attr/borderlessButtonStyle"/>
 
         <TextView
             android:id="@+id/courseNameView"

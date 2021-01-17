@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    >
+    tools:context=".ui.learn.ItemAdapter">
 
     <TextView
         android:id="@+id/header"
@@ -21,14 +21,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/smallCap"
-        android:layout_width="319dp"
-        android:layout_height="41dp"
+    <Button
+        android:id="@+id/startActivity"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
         android:text="@string/select_activity"
-        android:translationX="18dp"
-        android:textColor="@color/black"
-        android:translationY="10dp" />
+        android:textAllCaps="false"
+        android:textColor="@color/med_persian_blue"
+        style="?android:attr/borderlessButtonStyle"
+        app:backgroundTint="#00FFFFFF" />
 
     <ListView
         android:id="@+id/myListView"
@@ -40,9 +42,9 @@
         android:layout_marginBottom="20dp"
         android:divider="@android:color/transparent"
         android:dividerHeight="10.0sp"
-        android:translationY="10dp" />
+        android:translationY="10dp"/>
 
-<!--        android:listSelector="@drawable/rounded"-->
+    <!--        android:listSelector="@drawable/rounded"-->
 
 
     <![CDATA[

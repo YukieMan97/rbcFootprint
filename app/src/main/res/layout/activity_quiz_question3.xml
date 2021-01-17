@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
 
     android:background="@color/white"
-    tools:context=".ui.quiz.QuizQuestionActivity">
+    tools:context=".ui.quiz.thirdquestion.ThirdQuizQuestionActivity">
 
     <Button
         android:id="@+id/answer4"

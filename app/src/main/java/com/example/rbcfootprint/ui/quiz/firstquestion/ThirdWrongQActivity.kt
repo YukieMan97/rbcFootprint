@@ -1,4 +1,4 @@
-package com.example.rbcfootprint.ui.quiz
+package com.example.rbcfootprint.ui.quiz.firstquestion
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,10 +7,10 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.rbcfootprint.R
 import com.example.rbcfootprint.ui.mainpage.MainPageActivity
 
-class CorrectQActivity : AppCompatActivity() {
+class ThirdWrongQActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_quiz_correct_ans2)
+        setContentView(R.layout.activity_quiz_wrong_ans3)
 
         // TODO direct to "are you sure?" layout
         val button = findViewById<ImageButton>(R.id.backButton)

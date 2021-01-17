@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
 
     android:background="@color/white"
-    tools:context=".ui.quiz.ThirdWrongQActivity">
+    tools:context=".ui.quiz.firstquestion.ThirdWrongQActivity">
 
     <TextView
         android:id="@+id/textView3"

@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import com.example.rbcfootprint.R
-import com.example.rbcfootprint.ui.quiz.QuizQuestionActivity
 import com.example.rbcfootprint.ui.quiz.QuizTipActivity
 
 class ThirdLearnActivity : AppCompatActivity() {
