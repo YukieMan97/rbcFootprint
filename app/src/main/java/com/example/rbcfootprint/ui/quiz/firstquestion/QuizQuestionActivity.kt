@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import com.example.rbcfootprint.R
+import com.example.rbcfootprint.ui.learn.ItemAdapter
 import com.example.rbcfootprint.ui.learn.LearnActivity
 
 class QuizQuestionActivity : AppCompatActivity() {
@@ -17,6 +18,7 @@ class QuizQuestionActivity : AppCompatActivity() {
         val answer2 = findViewById<Button>(R.id.answer2)
         val answer3 = findViewById<Button>(R.id.answer3)
         val answer4 = findViewById<Button>(R.id.answer4)
+        val backButton = findViewById<Button>(R.id.backButton)
 
         // correct answer
         answer2.setOnClickListener{
@@ -37,5 +39,13 @@ class QuizQuestionActivity : AppCompatActivity() {
             val intent = Intent(this, FourthWrongQActivity::class.java)
             startActivity(intent)
         }
+
+
+        backButton.setOnClickListener{
+            val intent = Intent(this, ItemAdapter::class.java)
+            startActivity(intent)
+        }
+
+
     }
 }
