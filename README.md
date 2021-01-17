@@ -1,14 +1,12 @@
-#Ellehacks: RBC Footprint Extension for RBC Rewards Phone Application
-##By Bonnie Chen, Saakshi Dhingra, Sarah Ferrolino, Yukie Man
+# Ellehacks: RBC Footprint Extension for RBC Rewards Phone Application
+## By Bonnie Chen, Saakshi Dhingra, Sarah Ferrolino, Yukie Man
 
-##Implemented in Kotlin with Android Studio
+## Implemented in Kotlin with Android Studio
 
-##Project Idea: [Project idea](https://github.com/user/repo/blob/branch/other_file.md)
+## [Project idea](https://github.com/user/repo/blob/branch/other_file.md) : Short Summary
 
-###Summary: 
 Footprint is an extension of the current RBC rewards app that provides lessons and learning opportunities for the user to learn about the environment and sustainable practices they can implement in their own daily lives.
-
- RBC Footprint slowly creates a conscious consumer by giving them incentives to continue learning about how to make the world a better place one sustainable practice at a time.
+RBC Footprint slowly creates a conscious consumer by giving them incentives to continue learning about how to make the world a better place one sustainable practice at a time.
 
 
 ![Login Page](https://gyazo.com/db8ce9df3751be360cb52702a5e24f4f)
