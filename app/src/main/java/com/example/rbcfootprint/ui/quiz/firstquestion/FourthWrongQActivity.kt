@@ -6,6 +6,7 @@ import android.widget.Button
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import com.example.rbcfootprint.R
+import com.example.rbcfootprint.ui.learn.ItemAdapter
 import com.example.rbcfootprint.ui.mainpage.MainPageActivity
 
 class FourthWrongQActivity : AppCompatActivity() {
@@ -15,7 +16,7 @@ class FourthWrongQActivity : AppCompatActivity() {
 
         val button = findViewById<Button>(R.id.backButton)
         button.setOnClickListener {
-            val intent = Intent(this, MainPageActivity::class.java)
+            val intent = Intent(this, ItemAdapter::class.java)
             startActivity(intent)
         }
     }

@@ -14,7 +14,6 @@ class MainPageActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        val button = findViewById<ImageButton>(R.id.imageButton6)
         val button = findViewById<Button>(R.id.learn)
         button.setOnClickListener{
             val intent = Intent(this, LearnActivity::class.java)

@@ -32,4 +32,12 @@
     <string name="_35">35%</string>
     <string name="_60">60%</string>
     <string name="question_1_3">Question 1/3</string>
+    <string name="welcome_to_footprint">Welcome to Footprint</string>
+    <string name="welcome_msg">Learn to make sustainable changes to your everyday choices while earning points.</string>
+    <string name="points">Collect points by performing activities related to the environment.</string>
+    <string name="tips_tricks"><![CDATA[Tips & Tricks]]></string>
+    <string name="fact1">1. Pass down your clothes to your relatives or even friends!</string>
+    <string name="easy_ways_to_conserve">Easy ways to conserve!</string>
+    <string name="bags">2. Invest in reusable grocery bags</string>
+    <string name="fact3">3. Wear more or less instead of turning on the heat or AC!</string>
 </resources>

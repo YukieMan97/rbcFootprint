@@ -40,7 +40,6 @@ class QuizQuestionActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-
         backButton.setOnClickListener{
             val intent = Intent(this, ItemAdapter::class.java)
             startActivity(intent)
