@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import com.example.rbcfootprint.R
+import com.example.rbcfootprint.ui.learn.ItemAdapter
 import com.example.rbcfootprint.ui.mainpage.MainPageActivity
 
 class CorrectQActivity : AppCompatActivity() {
@@ -12,10 +13,9 @@ class CorrectQActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz_correct_ans2)
 
-        // TODO direct to "are you sure?" layout
         val button = findViewById<ImageButton>(R.id.backButton)
         button.setOnClickListener {
-            val intent = Intent(this, MainPageActivity::class.java)
+            val intent = Intent(this, ItemAdapter::class.java)
             startActivity(intent)
         }
     }
