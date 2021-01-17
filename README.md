@@ -14,7 +14,6 @@ RBC Footprint slowly creates a conscious consumer by giving them incentives to c
 
 ## [Video of Proposed Prototype](https://www.youtube.com/watch?v=La_e4lHWCuw&feature=youtu.be)
 
-![Login Page](https://i.gyazo.com/7ed74d948e4378fee50b86bbca0f45c5.png)
 ![Login Page with info](https://i.gyazo.com/e399f46c766fc0b228fe6c3e4651f8c2.png)
 
 Since this project is an extension of an existing application, a login page is not required. However, if RBC Footprint becomes its own application, we would aim for it to look like this. With a reminder that Earth is our beautiful planet and that we are the ones who will make a difference!
