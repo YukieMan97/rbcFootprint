@@ -3,17 +3,19 @@
 
 ## Implemented in Kotlin with Android Studio
 
-## [Project idea](https://github.com/user/repo/blob/branch/other_file.md) : Short Summary
+## [Project idea](https://ellehacks.hypeinnovation.com/servlet/hype/IMT?documentTableId=9007205813285092533&userAction=Browse&templateName=&documentId=79fdac453205c2bf56ebab16c2a2fd51) : Short Summary
 
 Footprint is an extension of the current RBC rewards app that provides lessons and learning opportunities for the user to learn about the environment and sustainable practices they can implement in their own daily lives.
 RBC Footprint slowly creates a conscious consumer by giving them incentives to continue learning about how to make the world a better place one sustainable practice at a time.
 
 
-![Login Page](https://gyazo.com/db8ce9df3751be360cb52702a5e24f4f)
+![Login Page](https://i.gyazo.com/cb90db13b2f1723d339757f1240578bf.png)
 
 ![Login Page with info](https://i.gyazo.com/e399f46c766fc0b228fe6c3e4651f8c2.png)
+Since this project is an extension of an existing application, a login page is not required. However, if RBC Footprint becomes its own application, we would aim for it to look like this. With a reminder that Earth is our beautiful planet and that we are the ones who will make a difference!
 
 ![Main Page](https://i.gyazo.com/53787abd8532b0d2f762d8ccf39299bb.png)
+The activity tab is what we have focused on. In the existing RBC Rewards application, there is a progress bar to keep track of our recent rewards. We have decided to add two buttons, "DAILY" and "POINTS". "DAILY" is a daily lesson that can be completed for extra points. This will encourage users to learn about different climate change and sustainability everyday, and they're rewarded for it! As for the "POINTS" section, see below for details; this is the main part of the extension.
 
 ![Onboarding 1](https://i.gyazo.com/6ec8ad11e7871eff7fc22c8b7b822b46.png)
 
