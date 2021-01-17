@@ -22,30 +22,12 @@
         app:layout_constraintVertical_bias="0.046" />
 
     <TextView
-        android:id="@+id/activityText3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginEnd="260dp"
-        android:layout_marginRight="260dp"
-        android:text="Activity"
-        android:textColor="@color/black"
-        android:textSize="29sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.023"
-        app:layout_constraintStart_toEndOf="@+id/backButton"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.046" />
-
-    <TextView
         android:id="@+id/textView"
         android:layout_width="51dp"
         android:layout_height="69dp"
         android:shadowColor="#FFFFFF"
         android:text="@string/check"
-        android:textColor="@color/black"
+        android:textColor="@color/green"
         android:textSize="50sp"
         app:layout_constraintBottom_toBottomOf="@+id/moreButton"
         app:layout_constraintEnd_toEndOf="parent"
@@ -86,7 +68,7 @@
         android:layout_height="57dp"
         android:layout_marginTop="15dp"
         android:text="@string/answer"
-        app:backgroundTint="#EACB5D"
+        app:backgroundTint="@color/green"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
