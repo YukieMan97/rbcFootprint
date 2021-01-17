@@ -20,4 +20,10 @@
     <string name="select_activity">Select an activity and start earning points!</string>
     <string name="available_activities">Available Activities</string>
     <string name="back">←</string>
+    <string name="question_1">__% of clothing that people donate to thrift stores and charities.</string>
+    <string name="question_2">How long does it take for polyester to break down?</string>
+    <string name="question_3">How much water is needed to produce 1kg of cotton?</string>
+    <string name="correct_ans_1">Correct! Only 10% of clothing are reused/resold. The rest ends up in landfills</string>
+
+    <string name="save">save</string>
 </resources>

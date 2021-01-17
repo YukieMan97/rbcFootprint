@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:background="@color/white"
-    tools:context=".LearnActivity">
+    android:background="@color/light_grey"
+    tools:context=".ui.learn.LearnActivity">
 
     <Button
         android:id="@+id/skipButton"
