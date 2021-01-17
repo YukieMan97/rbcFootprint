@@ -9,4 +9,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="cyber_yellow">#FFFFD200</color>
+    <color name="pale_yellow">#FFEACB5D</color>
+    <color name="pale_blue">#FF538FCF</color>
+    <color name="light_grey">#FFC2CAD1</color>
+    <color name="green">#FF7FE35B</color>
+    <color name="red">#FFED6D6D</color>
 </resources>
