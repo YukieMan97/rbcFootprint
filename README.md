@@ -12,6 +12,7 @@ Our group has incorporated two themes proposed in ElleHacks 2021 into our projec
 Footprint is an extension of the current RBC rewards app that provides lessons and learning opportunities for the user to learn about the environment and sustainable practices they can implement in their own daily lives.
 RBC Footprint slowly creates a conscious consumer by giving them incentives to continue learning about how to make the world a better place one sustainable practice at a time.
 
+## [Video of Proposed Prototype](https://www.youtube.com/watch?v=La_e4lHWCuw&feature=youtu.be)
 
 ![Login Page](https://i.gyazo.com/7ed74d948e4378fee50b86bbca0f45c5.png)
 ![Login Page with info](https://i.gyazo.com/e399f46c766fc0b228fe6c3e4651f8c2.png)
