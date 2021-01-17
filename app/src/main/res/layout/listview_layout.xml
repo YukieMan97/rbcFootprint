@@ -17,13 +17,9 @@
 
         <ImageButton
             android:id="@+id/accButton"
-            android:layout_width="406dp"
+            android:layout_width="wrap_content"
             android:layout_height="155dp"
-            android:background="@drawable/rounded"
-            android:src="@drawable/climate"
-            android:clickable="true"
-
-            />
+            app:srcCompat="@drawable/climate" />
 
         <TextView
             android:id="@+id/courseNameView"

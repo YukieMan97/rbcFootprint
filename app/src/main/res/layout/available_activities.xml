@@ -14,7 +14,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
         android:layout_marginTop="24dp"
-        android:text="Available Activities"
+        android:text="@string/available_activities"
         android:textColor="#005DAA"
         android:textSize="24sp"
         android:translationX="-11dp"
@@ -25,7 +25,7 @@
         android:id="@+id/smallCap"
         android:layout_width="319dp"
         android:layout_height="41dp"
-        android:text="Select what type of activity you would like to do and earn points"
+        android:text="@string/select_activity"
         android:translationX="18dp"
         android:textColor="@color/black"
         android:translationY="10dp" />
