@@ -4,9 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.ImageButton
 import com.example.rbcfootprint.R
-import com.example.rbcfootprint.ui.mainpage.MainPageActivity
+import com.example.rbcfootprint.ui.quiz.QuizTipActivity
 
 class ThirdLearnActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,7 +14,7 @@ class ThirdLearnActivity : AppCompatActivity() {
 
 
         val button = findViewById<Button>(R.id.startButton)
-        button.setOnClickListener{
+          button.setOnClickListener{
             val intent = Intent(this, ItemAdapter::class.java)
             startActivity(intent)
         }
