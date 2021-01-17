@@ -1,7 +1,6 @@
 package com.example.rbcfootprint.ui.learn
 
 import android.content.Context
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,7 +11,7 @@ import com.example.rbcfootprint.R
 
 class ItemAdapter : AppCompatActivity() {
 
-    class Entry(private var course:String, private var desc:String, private var image: Int) {
+    class Entry(private var course:String, private var desc:String, private var image: Int, private var points:String) {
 
         fun getCourse(): String {
             return course
@@ -24,6 +23,10 @@ class ItemAdapter : AppCompatActivity() {
 
         fun getImage(): Int {
             return image
+        }
+
+        fun getPoints(): String {
+            return points
         }
     }
 
@@ -44,14 +47,16 @@ class ItemAdapter : AppCompatActivity() {
                 val quote = this.getItem(i) as Entry
 
                 //reference textviews and imageviews from our layout
-                val img = view?.findViewById<ImageView>(R.id.icon) as ImageView
+                val img = view?.findViewById<ImageButton>(R.id.accButton) as ImageButton
                 val nameTxt = view.findViewById<TextView>(R.id.courseNameView) as TextView
                 val propTxt = view.findViewById<TextView>(R.id.descView) as TextView
+                val pointTxt = view.findViewById<TextView>(R.id.pointView) as TextView
 
                 //BIND data to TextView and ImageVoew
                 nameTxt.text = quote.getCourse()
                 propTxt.text = quote.getDescription()
                 img.setImageResource(quote.getImage())
+                pointTxt.text = quote.getPoints()
 
                 //handle itemclicks for the ListView
                 view.setOnClickListener { Toast.makeText(c, quote.getCourse(), Toast.LENGTH_SHORT).show() }
@@ -69,16 +74,16 @@ class ItemAdapter : AppCompatActivity() {
             get() {
                 val quotes = ArrayList<Entry>()
 
-                var quotet = Entry("Climate Change" , "Some course description here." ,R.drawable.climate)
+                var quotet = Entry("Climate Change" , "Some course description here." ,R.drawable.climate, "40 pts")
                 quotes.add(quotet)
 
-                var quote2 = Entry("Climate Change" ,"Some course description here."  ,R.drawable.climate)
+                var quote2 = Entry("Climate Change" ,"Some course description here."  ,R.drawable.climate, "100 pts")
                 quotes.add(quote2)
 
-                var quote3 = Entry("Climate Change" , "Some course description here." , R.drawable.climate)
+                var quote3 = Entry("Climate Change" , "Some course description here." , R.drawable.climate, "20 pts")
                 quotes.add(quote3)
 
-                var quote4 = Entry("Climate Change", "Some course description here.", R.drawable.climate)
+                var quote4 = Entry("Climate Change", "Some course description here.", R.drawable.climate, "50 pts")
                 quotes.add(quote4)
 
                 return quotes
