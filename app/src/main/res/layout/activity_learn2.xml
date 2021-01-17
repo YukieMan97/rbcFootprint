@@ -5,14 +5,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:background="@color/light_grey"
+    android:background="#F4F4F4"
     tools:context=".ui.learn.SecondLearnActivity">
+
+    <TextView
+        android:id="@+id/welcomeMsg3"
+        android:layout_width="239dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="@string/points"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585" />
 
     <Button
         android:id="@+id/skipButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/skip"
+        android:textColor="@color/grey"
+        app:backgroundTint="#00494646"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -22,7 +36,7 @@
 
     <Button
         android:id="@+id/nextButton"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="@string/next"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -33,16 +47,29 @@
         app:layout_constraintVertical_bias="0.708" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="550dp"
-        android:layout_height="550dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="308dp"
-        android:src="@drawable/circles2"
+        android:id="@+id/imageView12"
+        android:layout_width="180dp"
+        android:layout_height="190dp"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.227"
+        app:srcCompat="@drawable/coins" />
+
+    <TextView
+        android:id="@+id/welcomeText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_footprint"
+        android:textColor="@color/med_persian_blue"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

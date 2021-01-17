@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import com.example.rbcfootprint.R
+import com.example.rbcfootprint.ui.mainpage.MainPageActivity
 import com.example.rbcfootprint.ui.quiz.firstquestion.QuizQuestionActivity
 
 class ItemAdapter : AppCompatActivity() {
@@ -100,6 +101,12 @@ class ItemAdapter : AppCompatActivity() {
             val button = findViewById<Button>(R.id.startActivity)
             button.setOnClickListener{
                 val intent = Intent(this, QuizQuestionActivity::class.java)
+                startActivity(intent)
+            }
+
+            val button2 = findViewById<ImageButton>(R.id.activityButton)
+            button2.setOnClickListener{
+                val intent = Intent(this, MainPageActivity::class.java)
                 startActivity(intent)
             }
 
