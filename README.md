@@ -13,7 +13,7 @@ Footprint is an extension of the current RBC rewards app that provides lessons a
 RBC Footprint slowly creates a conscious consumer by giving them incentives to continue learning about how to make the world a better place one sustainable practice at a time.
 
 
-![Login Page](https://i.gyazo.com/cb90db13b2f1723d339757f1240578bf.png)
+![Login Page](https://i.gyazo.com/7ed74d948e4378fee50b86bbca0f45c5.png)
 ![Login Page with info](https://i.gyazo.com/e399f46c766fc0b228fe6c3e4651f8c2.png)
 
 Since this project is an extension of an existing application, a login page is not required. However, if RBC Footprint becomes its own application, we would aim for it to look like this. With a reminder that Earth is our beautiful planet and that we are the ones who will make a difference!
@@ -37,13 +37,13 @@ Everyday, the tips page will be filled with new tips and tricks to reduce waste 
 This activity page is filled with categories where users can select their area of interest and how they can help protect the Earth in their own way. There are topics such as recycling, fast fashion, and renewable energy. Once they have chosen their preferred topic, there will be articles they can read (not implemented) and also go through a short quiz. Completing a quiz succcessfully guarantees more rewards! These quizzes are optional, so the user just wants to read articles, that is also learning!
 
 ![Activity Page: Fast Fashion](https://i.gyazo.com/62bada8f00fead15b9a6f4dddf6df0bb.png)
-![Activity Page: Climate Change & Renewable Energy](https://gyazo.com/7ed74d948e4378fee50b86bbca0f45c5)
+![Activity Page: Climate Change & Renewable Energy](https://i.gyazo.com/96dc4b35797ec0fe43795e6118478e75.png)
 
 As an example, we have a quiz about fast fashion. Fast fashion is trendy and inexpensive clothing that are mass-produced at a low cost. Because of all these points, there's an increase in overproduction and overconsumption, which does not help our ecological footprint. This is why we have a category about fast fashion. Please see the questions below and how our quiz system works!
 
 ![Fast Fashion Q1](https://i.gyazo.com/a6d11d51aa26e1e2bb0a120337634300.png)
 
-![Fast Fashion Q1: Incorrect](https://gyazo.com/890b3b23e6bf8d55bb5c43a971568b6a)
+![Fast Fashion Q1: Incorrect](https://i.gyazo.com/890b3b23e6bf8d55bb5c43a971568b6a.png)
 ![Fast Fashion Q1: correct](https://i.gyazo.com/afb30a2d9e6dcc4e55a7921b87c57e0f.png)
 
 We considered using blue and yellow for our incorrect and correct answers for design purposes and to also represent RBC more. Also, we wanted to account for people with colourblindness. After a mini debate, we decided to stick with green and red colours because they are usually associated with right and wrong answers. Since we are a learning extension, it makes sense to go with this colour scheme. We have also put symbols to indicate between right and wrong answers for those who have colourblindness. 
