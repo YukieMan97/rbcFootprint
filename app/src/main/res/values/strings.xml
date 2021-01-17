@@ -14,4 +14,7 @@
     <string name="daily">DAILY</string>
     <string name="next">Next</string>
     <string name="skip">SKIP</string>
+    <string name="answer">ANSWER</string>
+    <string name="check">✓</string>
+    <string name="wrong">✗</string>
 </resources>

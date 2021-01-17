@@ -22,6 +22,12 @@
         <activity android:name=".ui.learn.LearnActivity"></activity>
         <activity android:name=".ui.learn.SecondLearnActivity"></activity>
         <activity android:name=".ui.learn.ThirdLearnActivity"></activity>
+        <activity android:name=".ui.quiz.QuizTipActivity"></activity>
+        <activity android:name=".ui.quiz.QuizQuestionActivity"></activity>
+        <activity android:name=".ui.quiz.FirstWrongQActivity"></activity>
+        <activity android:name=".ui.quiz.ThirdWrongQActivity"></activity>
+        <activity android:name=".ui.quiz.FourthWrongQActivity"></activity>
+        <activity android:name=".ui.quiz.CorrectQActivity"></activity>
     </application>
 
 </manifest>
