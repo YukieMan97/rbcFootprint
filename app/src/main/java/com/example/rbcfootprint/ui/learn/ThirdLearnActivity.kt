@@ -16,7 +16,7 @@ class ThirdLearnActivity : AppCompatActivity() {
 
         val button = findViewById<Button>(R.id.startButton)
         button.setOnClickListener{
-            val intent = Intent(this, MainPageActivity::class.java)
+            val intent = Intent(this, ItemAdapter::class.java)
             startActivity(intent)
         }
     }

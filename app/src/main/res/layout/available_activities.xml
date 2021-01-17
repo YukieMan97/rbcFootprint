@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="24dp"
+        android:text="Available Activities"
+        android:textColor="#005DAA"
+        android:textSize="24sp"
+        android:translationX="-11dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/smallCap"
+        android:layout_width="319dp"
+        android:layout_height="41dp"
+        android:text="Select what type of activity you would like to do and earn points"
+        android:translationX="18dp"
+        android:textColor="@color/black"
+        android:translationY="10dp" />
+
+    <ListView
+        android:id="@+id/myListView"
+        android:layout_width="match_parent"
+        android:layout_height="494dp"
+        android:translationY="50dp" /><![CDATA[
+
+
+
+
+    "20sp"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+
+
+
+]]>
+</LinearLayout>
