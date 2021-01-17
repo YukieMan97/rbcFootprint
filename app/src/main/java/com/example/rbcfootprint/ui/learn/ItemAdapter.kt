@@ -74,16 +74,16 @@ class ItemAdapter : AppCompatActivity() {
             get() {
                 val quotes = ArrayList<Entry>()
 
+                var quote3 = Entry("Recycling" , "Some course description here." , R.drawable.recycling, "20 pts")
+                quotes.add(quote3)
+
+                var quote2 = Entry("Fast Fashion" ,"Some course description here."  ,R.drawable.fast_fashion, "100 pts")
+                quotes.add(quote2)
+
                 var quotet = Entry("Climate Change" , "Some course description here." ,R.drawable.climate, "40 pts")
                 quotes.add(quotet)
 
-                var quote2 = Entry("Climate Change" ,"Some course description here."  ,R.drawable.climate, "100 pts")
-                quotes.add(quote2)
-
-                var quote3 = Entry("Climate Change" , "Some course description here." , R.drawable.climate, "20 pts")
-                quotes.add(quote3)
-
-                var quote4 = Entry("Climate Change", "Some course description here.", R.drawable.climate, "50 pts")
+                var quote4 = Entry("Renewable Energy", "Some course description here.", R.drawable.energy, "50 pts")
                 quotes.add(quote4)
 
                 return quotes
