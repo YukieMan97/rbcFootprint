@@ -24,6 +24,12 @@
     <string name="question_2">How long does it take for polyester to break down?</string>
     <string name="question_3">How much water is needed to produce 1kg of cotton?</string>
     <string name="correct_ans_1">Correct! Only 10% of clothing are reused/resold. The rest ends up in landfills</string>
+    <string name="incorrect_ans_1">Incorrect. Only 10% of clothing are reused/resold. The rest ends up in landfills.</string>
 
     <string name="save">save</string>
+    <string name="_5">5%</string>
+    <string name="_10">10%</string>
+    <string name="_35">35%</string>
+    <string name="_60">60%</string>
+    <string name="question_1_3">Question 1/3</string>
 </resources>

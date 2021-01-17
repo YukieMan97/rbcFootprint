@@ -4,12 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:background="@color/light_grey"
     tools:context=".ui.quiz.firstquestion.FirstWrongQActivity">
 
+    <ProgressBar
+        android:id="@+id/pBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="213dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="492dp"
+        android:max="100"
+        android:progress="33"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:src="@drawable/fast_fashion_text"
+        app:layout_constraintBottom_toTopOf="@+id/answer1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="286dp"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:text="@string/incorrect_ans_1"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.292" />
+
     <Button
-        android:id="@+id/backButton2"
+        android:id="@+id/backButton"
         android:layout_width="62dp"
         android:layout_height="51dp"
         android:text="@string/back"
@@ -30,7 +70,7 @@
         android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -65,13 +105,26 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.512" />
 
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="492dp"
+        android:text="@string/question_1_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.071" />
+
     <Button
         android:id="@+id/answer"
         android:layout_width="230dp"
         android:layout_height="57dp"
         android:layout_marginTop="15dp"
-        android:text="@string/answer"
-        app:backgroundTint="#FF005DAA"
+        android:text="@string/_35"
+        android:textColor="@color/black"
+        app:backgroundTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -84,8 +137,9 @@
         android:layout_width="230dp"
         android:layout_height="57dp"
         android:layout_marginTop="15dp"
-        android:text="@string/answer"
-        app:backgroundTint="#FF005DAA"
+        android:text="@string/_60"
+        android:textColor="@color/black"
+        app:backgroundTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -96,7 +150,8 @@
         android:layout_width="230dp"
         android:layout_height="57dp"
         android:layout_marginTop="15dp"
-        android:text="@string/answer"
+        android:text="@string/_10"
+        android:textColor="@color/black"
         app:backgroundTint="@color/green"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -107,7 +162,8 @@
         android:id="@+id/answer1"
         android:layout_width="230dp"
         android:layout_height="57dp"
-        android:text="@string/answer"
+        android:text="@string/_5"
+        android:textColor="@color/black"
         app:backgroundTint="@color/red"
         app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar3"
         app:layout_constraintEnd_toEndOf="parent"

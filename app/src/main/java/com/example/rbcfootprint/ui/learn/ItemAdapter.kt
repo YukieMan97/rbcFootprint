@@ -108,12 +108,5 @@ class ItemAdapter : AppCompatActivity() {
             //instantiate and set adapter
             adapter = CustomAdapter(this, data)
             myListView.adapter = adapter
-
-
-
-//            myListView.setOnItemClickListener{_, _, _, _ ->
-//                val intent = Intent(this, QuizQuestionActivity::class.java)
-//                startActivity(intent)
-//            }
         }
 }
