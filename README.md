@@ -1,4 +1,5 @@
 # Ellehacks: RBC Footprint Extension for RBC Rewards Phone Application
+# RBC Sponsored Challenge Winner
 ## By Bonnie Chen, Saakshi Dhingra, Sarah Ferrolino, Yukie Man
 
 ## Implemented with Kotlin using Android Studio
