@@ -65,7 +65,7 @@ Little did we know... our hard work has paid off! We were selected as the winner
 
 So once again, thank you to the RBC Sponsors for giving us a chance and believing in our idea. We are very excited to attend their exclusive virtual RBC event!
 
-![RBC Sponsored Challenge Winner - RBC Footprint](https://ellehacks.hypeinnovation.com/servlet/hype/IMT?documentTableId=9007205813478631304&userAction=Browse&templateName=&documentId=f23f60a5892b7c988a8548a945b24dc8)
+[RBC Sponsored Challenge Winner - RBC Footprint](https://ellehacks.hypeinnovation.com/servlet/hype/IMT?documentTableId=9007205813478631304&userAction=Browse&templateName=&documentId=f23f60a5892b7c988a8548a945b24dc8)
 
 # Project Overview:
 ## Here, I will be talking about my experience (Yukie's experience) with this project and my awesome teammates! This section is mostly for me to reflect on and remember my own experiences with this event.
@@ -73,4 +73,6 @@ Day 1:
 - We met up on Discord and introduced ourselves before planning out an idea. 
 - A little bit about our team... Bonnie is studying Interactive Arts and Technology while doing a minor in Business. Saakshi has an Accounting degree and just finished General Assembly's UXDI bootcamp. As for Sarah and I, we are both studying Computer Science. So our team basically consists of two Backend Developers and two Frontend Developers with experience in Business. 
 - Together, we all went through the Ellehacks themes and the one that interested us the most was RBC's challenge: How can RBC rewards programs better help consumers make environmental decisions?
-- From there, we knew we wanted to make a educational app where users can learn valuable information about sustainability and climate change.
+- From there, we knew we wanted to make a educational app where users can learn valuable information about sustainability and climate change. We have also considered a educational gaming app but the idea where we create an extension to the existing RBC Rewards application was chosen. 
+- It took us a few hours to finalized our idea because we all wanted to research a few things. Why would our extension matter? Who is our targetted demographic? What software and language should we use? 
+- Why would our extension matter? Well, our users is assumed to already be in the Rewards programs so that they can earn extra rewards. Another motivation for these users to use this extension is to learn how they can help sustain the Earth and reduce waste. Both of these main motivations can also attract new consumers to the RBC Rewards program. It is a win-win for both sides!
