@@ -5,14 +5,14 @@
 
 ## [Project idea](https://ellehacks.hypeinnovation.com/servlet/hype/IMT?documentTableId=9007205813285092533&userAction=Browse&templateName=&documentId=79fdac453205c2bf56ebab16c2a2fd51) : Short Overview
 
+### [Video Presentation of Proposed Prototype](https://www.youtube.com/watch?v=La_e4lHWCuw&feature=youtu.be)
+
 Our group has incorporated two themes proposed in ElleHacks 2021 into our project: 
 - RBC Sponsored Challenge - Rewarding the Environment
 - Climate Change and Sustainability
 
 Footprint is an extension of the current RBC rewards app that provides lessons and learning opportunities for the user to learn about the environment and sustainable practices they can implement in their own daily lives.
 RBC Footprint slowly creates a conscious consumer by giving them incentives to continue learning about how to make the world a better place one sustainable practice at a time.
-
-## [Video of Proposed Prototype](https://www.youtube.com/watch?v=La_e4lHWCuw&feature=youtu.be)
 
 ![Login Page with info](https://i.gyazo.com/e399f46c766fc0b228fe6c3e4651f8c2.png)
 
@@ -56,7 +56,21 @@ This quiz contains 3 questions and each question is unique. With these facts and
 
 ## Thanks for reading about our RBC Footprint Extension for the RBC Rewards Application. 
 
-# Project Overview:
-## Here, I will be talking about my experience with this project and my awesome teammates!
+# Special thanks to the RBC Sponsors!
+## Our team won the RBC Sponsor Challenge!
 
-(to be continued)
+We were given the opportunity to present our presentation to the RBC Sponsors in the third round of evaluations! It was a shocking moment for us to all find out we were invited! We were all excited to the point where we got very nervous but thankfully, we had a few minutes to cool down and reset our minds for the presentation. Our team took a lot of time to practice for the YouTube video and this really helped our presentation flow as smoothly as possible. Saakshi also did a great job answering the two of our Sponsor's questions. After that was done, we waited until the Closing Ceremony to hear the results. 
+
+Little did we know... our hard work has paid off! We were selected as the winners of the RBC Challenge!! What exciting news!! Other teams had great ideas and presentations as well but we had the edge in the end. All of us are very grateful for working through this challenge. As most teams I assumed, we stayed up and designed and coded away until time was up. 
+
+So once again, thank you to the RBC Sponsors for giving us a chance and believing in our idea. We are very excited to attend their exclusive virtual RBC event!
+
+![RBC Sponsored Challenge Winner - RBC Footprint](https://ellehacks.hypeinnovation.com/servlet/hype/IMT?documentTableId=9007205813478631304&userAction=Browse&templateName=&documentId=f23f60a5892b7c988a8548a945b24dc8)
+
+# Project Overview:
+## Here, I will be talking about my experience (Yukie's experience) with this project and my awesome teammates! This section is mostly for me to reflect on and remember my own experiences with this event.
+Day 1:
+- We met up on Discord and introduced ourselves before planning out an idea. 
+- A little bit about our team... Bonnie is studying Interactive Arts and Technology while doing a minor in Business. Saakshi has an Accounting degree and just finished General Assembly's UXDI bootcamp. As for Sarah and I, we are both studying Computer Science. So our team basically consists of two Backend Developers and two Frontend Developers with experience in Business. 
+- Together, we all went through the Ellehacks themes and the one that interested us the most was RBC's challenge: How can RBC rewards programs better help consumers make environmental decisions?
+- From there, we knew we wanted to make a educational app where users can learn valuable information about sustainability and climate change.
