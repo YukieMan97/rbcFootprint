@@ -4,7 +4,7 @@
 
 ## Implemented with Kotlin using Android Studio
 
-## [Project idea](https://ellehacks.hypeinnovation.com/servlet/hype/IMT?documentTableId=9007205813285092533&userAction=Browse&templateName=&documentId=79fdac453205c2bf56ebab16c2a2fd51) : Short Overview
+## Project idea: Short Overview
 
 ### [Video Presentation of Proposed Prototype](https://www.youtube.com/watch?v=La_e4lHWCuw&feature=youtu.be)
 
@@ -65,8 +65,6 @@ We were given the opportunity to present our presentation to the RBC Sponsors in
 Little did we know... our hard work has paid off! We were selected as the winners of the RBC Challenge!! What exciting news!! Other teams had great ideas and presentations as well but we had the edge in the end. All of us are very grateful for working through this challenge. As with most teams I assume, we stayed up and designed and coded away until time was up. 
 
 So once again, thank you to the RBC Sponsors for giving us a chance and believing in our idea. We are very excited to attend their exclusive virtual RBC event!
-
-[RBC Sponsored Challenge Winner - RBC Footprint](https://ellehacks.hypeinnovation.com/servlet/hype/IMT?documentTableId=9007205813478631304&userAction=Browse&templateName=&documentId=f23f60a5892b7c988a8548a945b24dc8)
 
 # Project Overview:
 
